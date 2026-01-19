@@ -24,3 +24,10 @@ p {
 	margin: 20px;
 	padding: 20px;
 }
+
+#signature {
+  text-align: right;
+  color: black;
+  font-style: italic;
+  font-size: 75%;
+}
