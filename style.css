@@ -20,8 +20,8 @@ p {
 }
 
 .banner {
-width: 500px; 
-height: 150px; 
 background-color: #8F001A;
 color: white;
+margin: 20px;
+padding: 20px;
 }
