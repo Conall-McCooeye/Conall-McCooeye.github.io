@@ -11,6 +11,15 @@ h1 {
 	color: white;
 }
 
+h2 {
+	font-family: "Arial Rounded MT Bold";
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 5px;
+	color: black;
+}
+
 p {
 	font-family: "Arial Rounded MT Bold";
 	font-size: 20px;
