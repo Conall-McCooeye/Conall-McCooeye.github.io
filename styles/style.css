@@ -55,80 +55,7 @@ p {
   margin: 12px 0 12px 0;
 }
 
-/* Screenshot */
-.site-image {
-  display: block;
-  width: 70%;
-  max-width: 900px;
-  margin: 16px auto 24px auto;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-}
-
-/* Survey layout */
-.survey {
-  width: 70%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.question {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 16px;
-  margin: 12px 0;
-  text-align: left;
-}
-
-.question label, 
-.question p {
-  display: block;
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.question input[type="text"],
-.question select,
-.question textarea {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px;
-  border: 1px solid #bbb;
-  border-radius: 8px;
-  font-size: 14px;
-}
-
-/* Submit button */
-.submit-area {
-  text-align: center;
-}
-
-.submit-area button {
-  padding: 10px 18px;
-  border: none;
-  border-radius: 10px;
-  background-color: #8F001A;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.submit-area button:hover {
-  opacity: 0.9;
-}
-
-/* Signature */
-#signature {
-  margin: 30px 20px 20px 20px;
-  text-align: right;
-  color: black;
-  font-style: italic;
-  font-size: 75%;
-}
-
-
-/* Section title for gallery */
+/* Section titles (default: aligned with survey width) */
 .section-title {
   width: 70%;
   max-width: 900px;
@@ -136,6 +63,16 @@ p {
   text-align: left;
   font-family: "Arial Rounded MT Bold", Arial, sans-serif;
   font-size: 16px;
+
+  padding-left: 10px;
+  border-left: 4px solid #8F001A;
+}
+
+/* When section title is inside gallery-wrap, align to gallery container */
+.gallery-wrap .section-title {
+  width: 100%;
+  max-width: none;
+  margin: 0 0 10px 0;   /* container handles centering */
 }
 
 /* Gallery grid */
@@ -227,4 +164,66 @@ p {
   position: absolute;
   inset: 0;
   cursor: default;
+}
+
+/* Survey layout */
+.survey {
+  width: 70%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.question {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+  text-align: left;
+}
+
+.question label,
+.question p {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.question input[type="text"],
+.question select,
+.question textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Submit button */
+.submit-area {
+  text-align: center;
+}
+
+.submit-area button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #8F001A;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-area button:hover {
+  opacity: 0.9;
+}
+
+/* Signature */
+#signature {
+  margin: 30px 20px 20px 20px;
+  text-align: right;
+  color: black;
+  font-style: italic;
+  font-size: 75%;
 }
