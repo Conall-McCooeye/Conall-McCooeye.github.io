@@ -1,6 +1,14 @@
-html {
-  background-color: #f2f0ef;
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(180deg, #faf8f6 0%, #f2f0ef 100%);
+  background-size: 18px 18px, auto;
 }
+
+
 
 h1 {
 	font-family: "Arial Rounded MT Bold";
@@ -29,12 +37,12 @@ p {
 }
 
 
-.banner p {
-  font-family: "Arial Rounded MT Bold", Arial, sans-serif;
-  font-size: 18px;
-  text-align: center;
-  margin: 0;
-  color: white;
+.banner {
+  background-color: #8F001A;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
 
 
